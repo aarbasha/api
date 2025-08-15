@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Services",
+        "info": "Creating unique logos that represent the brand's identity.",
+        "cover": null,
+        "path": "Services",
+        "parent_id": null,
+        "icon": "FaServicestack"
+    },
+    {
+        "name": "Logo Design",
+        "info": "Creating unique logos that represent the brand's identity.",
+        "cover": null,
+        "path": "Services - Logo Design",
+        "parent_id": 1,
+        "icon": "FaPenFancy"
+    },
+    {
+        "name": "Promotional Materials Design",
+        "info": "Designing posters, brochures, and flyers to promote products and services.",
+        "cover": null,
+        "path": "Services - Promotional Materials Design",
+        "parent_id": 1,
+        "icon": "FaFileAlt"
+    },
+    {
+        "name": "Website Design",
+        "info": "Developing attractive and user-friendly interfaces for websites.",
+        "cover": null,
+        "path": "Services - Website Design",
+        "parent_id": 1,
+        "icon": "FaDesktop"
+    },
+    {
+        "name": "Packaging Design",
+        "info": "Designing product packaging that captivates customers.",
+        "cover": null,
+        "path": "Services - Packaging Design",
+        "parent_id": 1,
+        "icon": "FaBox"
+    },
+    {
+        "name": "Illustration Design",
+        "info": "Creating illustrative graphics to complement written content.",
+        "cover": null,
+        "path": "Services - Illustration Design",
+        "parent_id": 1,
+        "icon": "FaPaintBrush"
+    },
+    {
+        "name": "Brand Identity Design",
+        "info": "Developing a comprehensive visual identity, including colors, fonts, and styles.",
+        "cover": null,
+        "path": "Services - Brand Identity Design",
+        "parent_id": 1,
+        "icon": "FaTrademark"
+    },
+    {
+        "name": "Digital Marketing Design",
+        "info": "Designing social media ads and email marketing campaigns.",
+        "cover": null,
+        "path": "Services - Digital Marketing Design",
+        "parent_id": 1,
+        "icon": "FaBullhorn"
+    },
+    {
+        "name": "Animation Design",
+        "info": "Creating animated visual content for promotion and awareness.",
+        "cover": null,
+        "path": "Services - Animation Design",
+        "parent_id": 1,
+        "icon": "FaVideo"
+    }
+]
