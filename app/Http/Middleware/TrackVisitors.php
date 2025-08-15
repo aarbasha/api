@@ -12,7 +12,7 @@ class TrackVisitors
     public function handle($request, Closure $next)
     {
         $ipAddress = $request->ip();
-        $location = GeoIP::getLocation($ipAddress);
+        // $location = GeoIP::getLocation($ipAddress);
         $detect = new MobileDetect;
 
         $deviceType = $detect->isMobile() ? 'Mobile' : ($detect->isTablet() ? 'Tablet' : 'Desktop');
