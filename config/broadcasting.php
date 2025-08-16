@@ -38,7 +38,7 @@ return [
             'options' => [
                 'cluster' => env('PUSHER_APP_CLUSTER'),
                 'encrypted' => true,
-                'host' => 'api.anasarbasha.net',
+                'host' => 'https://api.anasarbasha.net',
                 'port' => 6001,
                 'scheme' => 'https'
             ],

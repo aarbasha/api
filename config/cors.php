@@ -19,7 +19,7 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['http://localhost:3000', 'https://anasarbasha.net', 'https://anasarbasha.net/*', 'https://anasarbasha.de', 'https://anasarbasha.de/*'], // تأكد من إضافة المصدر هنا
+    'allowed_origins' => ['http://localhost:3000', 'https://api.anasarbasha.net','https://api.anasarbasha.net/*' ,  'https://api.anasarbasha.de', 'https://anasarbasha.net', 'https://anasarbasha.net/*', 'https://anasarbasha.de', 'https://anasarbasha.de/*'], // تأكد من إضافة المصدر هنا
 
 
     'allowed_origins_patterns' => [],
