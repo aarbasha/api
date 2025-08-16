@@ -35,16 +35,16 @@ class UsersSeeder extends Seeder
             "email_verify" => true,
             "phone_verify" => true,
             'email' => 'info@anasarbasha.net',
-            'password' => bcrypt('12345678'),
+            'password' => bcrypt('$$XBOX_SX$$'),
             'color' => '000000'
         ])->addRole($owner);
 
         User::create([
-            'name' => 'admin',
-            'username' => 'admin',
+            'name' => 'Anas',
+            'username' => 'aarbasha_de',
             "email_verify" => true,
             "phone_verify" => true,
-            'email' => 'admin@laravel.com',
+            'email' => 'anas.arbasha.deu@gmail.com',
             'password' => bcrypt('12345678'),
             'color' => $XColor
         ])->addRole($admin);
