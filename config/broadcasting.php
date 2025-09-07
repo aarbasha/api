@@ -40,7 +40,8 @@ return [
                 'encrypted' => true,
                 'host' => 'api.anasarbasha.net',
                 'port' => 6001,
-                'scheme' => 'https'
+                'scheme' => 'https',
+                'useTLS' => true,
             ],
         ],
 
