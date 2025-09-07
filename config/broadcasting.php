@@ -41,7 +41,6 @@ return [
                 'host' => 'api.anasarbasha.net',
                 'port' => 6001,
                 'scheme' => 'https',
-                'useTLS' => true,
             ],
         ],
 
