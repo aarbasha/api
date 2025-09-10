@@ -350,7 +350,7 @@ class AuthController extends Controller
             Mail::to($user->email)->send(new PasswordResetCode($code, $user->email, $pathLogo));
         } catch (\Throwable $th) {
             //throw $th;
-            return 'no connection for send email';
+            return $th;
         }
 
 
