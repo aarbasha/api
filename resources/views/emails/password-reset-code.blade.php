@@ -15,8 +15,7 @@
     <div class="flex justify-center items-center min-h-screen">
         <div class="bg-black rounded-lg p-8 w-full max-w-md flex flex-col justify-center items-center">
 
-            <img src="{{ asset(storage_path('app/public/images/logo.png')) }}" alt="Logo" width="200"
-                height="200">
+          <img src="{{ asset('images/logo1.png') }}" alt="Logo" width="200" height="200">
             <div class="text-center">
                 <h1 class="text-4xl font-bold mb-4">Password Reset Code</h1>
                 <p class="mb-4">Your password reset code is:</p>
