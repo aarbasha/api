@@ -1,34 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('emails.MainLayout')
+@section('title', 'Password Reset Code')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    @vite('../../resources/css/app.css')
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
-    <title>Password Reset Code</title>
-</head>
 
-<body class=" bg-gray-700 text-white">
-
+@section('content')
     <div class="flex justify-center items-center min-h-screen">
         <div class="bg-black rounded-lg p-8 w-full max-w-md flex flex-col justify-center items-center">
-
-          <img src="{{ asset('images/logo1.png') }}" alt="Logo" width="200" height="200">
+            <img src="{{ asset('images/logo1.png') }}" alt="Logo" width="200" height="200">
             <div class="text-center">
                 <h1 class="text-4xl font-bold mb-4">Password Reset Code</h1>
-                <p class="mb-4">Your password reset code is:</p>
-                <p class="text-red-500 text-3xl font-bold mb-6">{{ $code }}</p>
+                <p class="mb-4">Your code for reset password :</p>
+                <p class="text-red-500 text-3xl font-bold mb-6  ">{{ $code }}</p>
                 <div class="flex items-center justify-center mb-4">
                     <i class="fas fa-envelope text-gray-400 mr-2"></i>
-                    <span class=" font-bold text-green-500">{{ $email }}</span>
+                    <div class=" my-4 font-bold text-blue-600">{{ $email }}</div>
                 </div>
                 <p>Please enter this code to reset your password.</p>
             </div>
         </div>
     </div>
-
-</body>
-
-</html>
+@endsection

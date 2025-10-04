@@ -1,21 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('emails.MainLayout')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    @vite('../../resources/css/app.css')
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
-    <title>Verfiy Code</title>
-</head>
+@section('title', 'Email Verfiy Code')
+@extends('content')
 
-<body class=" bg-gray-700 text-white">
+<div class=" bg-gray-700 text-white">
 
     <div class="flex justify-center items-center min-h-screen">
         <div class="bg-black rounded-lg p-8 w-full max-w-md flex flex-col justify-center items-center">
 
-           <img src="{{ asset('images/logo1.png') }}" alt="Logo" width="200" height="200">
+            <img src="{{ asset('images/logo1.png') }}" alt="Logo" width="200" height="200">
             <div class="text-center">
                 <h1 class="text-4xl font-bold mb-4">Email Verfiy Code</h1>
                 <p class="mb-4">Your code for confierm Emial :</p>
@@ -29,6 +22,5 @@
         </div>
     </div>
 
-</body>
-
-</html>
+</div>
+@endsection
